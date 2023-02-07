@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageOrderHistoryDetailsSpec"
+                android:layout_width="100dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/placeholder" />
+
+            <TextView
+                android:id="@+id/txtvOrderHistoryDetailsDescription"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/proxima_nova_bold"
+                android:maxLines="1"
+                android:text="TextView"
+                android:textSize="@dimen/textview_fontsize"
+                app:layout_constraintEnd_toStartOf="@+id/txtvOrderHistoryDetailsQuantity"
+                app:layout_constraintStart_toEndOf="@+id/imageOrderHistoryDetailsStar"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtvOrderHistoryDetailsFullSalesPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/proxima_nova_bold"
+                android:text="TextView"
+                android:textColor="@color/n1color"
+                android:textSize="@dimen/textview_fontsize"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <TextView
+                android:id="@+id/txtvOrderHistoryDetailsQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/proxima_nova_bold"
+                android:minWidth="30dp"
+                android:padding="2dp"
+                android:text="00"
+                android:textAlignment="center"
+                android:textColor="@color/n1color"
+                android:textSize="@dimen/textview_fontsize"
+                app:layout_constraintEnd_toStartOf="@+id/txtvOrderHistoryDetailsUOM"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageOrderHistoryDetailsSponsor"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageOrderHistoryDetailsSpec" />
+
+            <TextView
+                android:id="@+id/txtvOrderHistoryDetailsUOM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:padding="2dp"
+                android:text="kg"
+                android:textAlignment="center"
+                android:textSize="@dimen/textview_fontsize"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageOrderHistoryDetailsStar"
+                android:layout_width="15dp"
+                android:layout_height="20dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toEndOf="@+id/imageOrderHistoryDetailsSpec"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/about" />
+
+            <TextView
+                android:id="@+id/txtvOrderHistoryDetailsConfig"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/proxima_nova_regular"
+                android:maxLines="1"
+                android:text="TextView"
+                android:textSize="10sp"
+                app:layout_constraintEnd_toStartOf="@+id/txtvOrderHistoryDetailsQuantity"
+                app:layout_constraintStart_toEndOf="@+id/imageOrderHistoryDetailsSpec"
+                app:layout_constraintTop_toBottomOf="@+id/txtvOrderHistoryDetailsDescription" />
+
+            <TextView
+                android:id="@+id/txtvOrderHistoryDetailsError"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:paddingStart="10dp"
+                android:text="@string/order_history_details_error"
+                android:textColor="@color/white"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageOrderHistoryDetailsSpec"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

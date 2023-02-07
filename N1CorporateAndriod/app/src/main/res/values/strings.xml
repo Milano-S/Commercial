@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">N1@Corporate</string>
+
+
+    <string name="action_orders">Order</string>
+    <string name="editTextInvalid">This field cannot be empty</string>
+
+
+    <!--ProductSpec Screen-->
+    <string name="productspec_additem">Add to Cart</string>
+
+    <!--    LoginAPI Screen-->
+    <string name="login_username">Email Address</string>
+    <string name="login_password">Password</string>
+    <string name="login_loginbtn">Login</string>
+    <string name="login_footer">QUALITY. SERVICE. DELIVERY.</string>
+
+
+    <!-- Activity names-->
+    <string name="delivery_details_title">Delivery Details</string>
+    <string name="order_list_title">Order List</string>
+
+
+    <string name="unit">Unit -</string>
+    <string name="select_delivery_type">Collect at warehouse</string>
+
+    <!-- Product List Screen-->
+    <string name="product_list_error">Could not find anything matching your search</string>
+
+    <!-- Homescreen titles -->
+    <string name="category_sponsored">Sponsored</string>
+    <string name="category_categories">Categories</string>
+
+
+    <!--    OrderPlace Screen-->
+    <string name="orderplaced_title">Order Successful</string>
+    <string name="orderplaced_text">Thank you for placing your order, we have sent you an email with payment details to complete your order. \n\nThank you.</string>
+    <string name="orderplaced_btn">Back To Home</string>
+
+    <!--        Select delivery type screen-->
+    <string name="select_del_type_title">Please select one of the following options.</string>
+    <string name="select_del_type_collection">Collect at Warehouse</string>
+    <string name="select_del_type_delivery">Delivery</string>
+
+    <!-- CART-->
+    <string name="cart_checkout_btn">Proceed To Checkout</string>
+    <string name="cart_order_review">Order Review</string>
+    <string name="cart_discount_text">Discount:</string>
+    <string name="cart_exvat_text">ExVat:</string>
+    <string name="cart_vat_text">Vat:</string>
+    <string name="cart_total_text">Total:</string>
+
+<!--    Order History Details screen-->
+    <string name="order_history_details_discount">Discount</string>
+    <string name="order_history_details_exvat">Ex-Vat</string>
+    <string name="order_history_details_vat">Vat</string>
+    <string name="order_history_details_total">Total</string>
+    <string name="order_history_details_re_order">Re-Order</string>
+    <string name="order_history_details_download">Download Document</string>
+    <string name="order_history_details_error">This product is no longer available.</string>
+
+
+    <string name="order_history_no_item">You currently do not have any historical invoices.</string>
+
+    <!--    Global-->
+    <string name="save_btn">Save</string>
+    <string name="next_btn">Next</string>
+    <string name="submit_btn">Submit</string>
+    <string name="home_btn">Back to Home</string>
+
+<!--    Forgot Password-->
+    <string name="forgot_password_text">Please enter the email address that you used during registration.</string>
+
+
+    <string name="profile_firstName">First Name</string>
+    <string name="profile_lastName">Last Name</string>
+    <string name="profile_phone">Cellphone Number</string>
+    <string name="profile_email">Email Address</string>
+    <string name="profile_deliveryUnits">Delivery Units</string>
+
+    <string name="offline_message">We are currently offline to make improvements to better serve you. Please come back and try again in 30 minutes from now. We apologise for the inconvenience.</string>
+    <string name="offline_close">Close</string>
+    <string name="offline_update">Update</string>
+
+    <!--    ABOUT-->
+    <string name="about_terms">Terms and Conditions</string>
+    <string name="about_privacy">Privacy Policy</string>
+    <string name="about_returns">Returns Policy</string>
+    <string name="about_developed_by">Developed by</string>
+
+    <!--    OUTDATED SCREEN-->
+    <string name="outdated_text">You seem to be running an old version of the app, please update the app to continue.</string>
+
+
+    <!--    CONTACT-->
+    <string name="contact_title">Contact Us</string>
+    <string name="contact_text">Give us a call or send us a mail, we’d love to hear from you and will respond to your enquiries as soon as possible.</string>
+    <string name="contact_phone">Tel:</string>
+    <string name="contact_email">Email:</string>
+    <string name="contact_address">Address:</string>
+    <string name="contact_site">Website:</string>
+
+</resources>
